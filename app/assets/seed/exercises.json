@@ -1,0 +1,2883 @@
+{
+  "version": 2,
+  "exercises": [
+    {
+      "name": "哑铃罗马尼亚硬拉",
+      "region": "后链",
+      "joints": [
+        "髋屈伸"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "腿",
+        "臀",
+        "背"
+      ],
+      "muscles": [
+        "腘绳肌",
+        "臀大肌",
+        "竖脊肌"
+      ],
+      "anatomyNote": "髋铰链后链主训，居家哑铃替代杠铃 RDL。",
+      "nameEn": "Dumbbell Romanian Deadlift",
+      "cues": [
+        "软膝锁住角度",
+        "杠贴近腿",
+        "感受腘绳拉伸"
+      ],
+      "id": "ex_romanian_dl_db"
+    },
+    {
+      "name": "自重髋铰链（早安式）",
+      "region": "后链",
+      "joints": [
+        "髋屈伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "背",
+        "臀",
+        "腿"
+      ],
+      "muscles": [
+        "腘绳肌",
+        "臀大肌",
+        "竖脊肌"
+      ],
+      "anatomyNote": "学习硬拉/罗马尼亚硬拉模式的无负重版本。",
+      "nameEn": "Bodyweight Good Morning / Hip Hinge",
+      "cues": [
+        "软膝",
+        "髋后移",
+        "背平直"
+      ],
+      "id": "ex_hip_hinge_good_morning_bw"
+    },
+    {
+      "name": "提踵",
+      "region": "小腿",
+      "joints": [
+        "踝跖屈"
+      ],
+      "equipmentTags": [
+        "自重",
+        "哑铃可选"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "腿"
+      ],
+      "muscles": [
+        "腓肠肌",
+        "比目鱼肌"
+      ],
+      "anatomyNote": "踝跖屈：腓肠肌（屈膝时负荷下降）与比目鱼肌（屈膝仍参与）。",
+      "nameEn": "Calf Raise",
+      "cues": [
+        "顶峰停顿",
+        "全幅度",
+        "可单腿进阶"
+      ],
+      "id": "ex_calf_raise"
+    },
+    {
+      "name": "开合跳",
+      "region": "有氧",
+      "joints": [
+        "多关节节律"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "全身"
+      ],
+      "muscles": [
+        "全身动员"
+      ],
+      "anatomyNote": "全身节律性动作，偏代谢激活；关节不适者改低冲击。",
+      "nameEn": "Jumping Jack",
+      "cues": [
+        "落地轻",
+        "节奏稳定",
+        "可改为踏步开合降冲击"
+      ],
+      "id": "ex_jumping_jack"
+    },
+    {
+      "name": "登山跑",
+      "region": "有氧/核心",
+      "joints": [
+        "髋屈 + 肩稳定"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "核心",
+        "全身"
+      ],
+      "muscles": [
+        "髂腰肌",
+        "腹直肌",
+        "肩带"
+      ],
+      "anatomyNote": "高强度间歇可选动作；减脂有氧日可短间歇使用。",
+      "nameEn": "Mountain Climber",
+      "cues": [
+        "肩在手上方",
+        "骨盆稳定",
+        "呼吸不断"
+      ],
+      "id": "ex_mountain_climber"
+    },
+    {
+      "name": "侧平板",
+      "region": "核心",
+      "joints": [
+        "脊柱侧向稳定"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "核心"
+      ],
+      "muscles": [
+        "腹斜肌",
+        "臀中肌",
+        "肩带"
+      ],
+      "anatomyNote": "抗侧屈，强化侧链与骨盆侧向稳定。",
+      "nameEn": "Side Plank",
+      "cues": [
+        "身体侧向一条线",
+        "髋不上掉",
+        "颈放松"
+      ],
+      "id": "ex_side_plank"
+    },
+    {
+      "name": "平板支撑",
+      "region": "核心",
+      "joints": [
+        "脊柱中立稳定"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "核心"
+      ],
+      "muscles": [
+        "腹横肌",
+        "腹直肌",
+        "竖脊肌",
+        "肩带稳定肌"
+      ],
+      "anatomyNote": "抗伸展核心稳定；以时间/质量计，非次数。",
+      "nameEn": "Plank",
+      "cues": [
+        "肘在肩下",
+        "骨盆不塌不撅",
+        "均匀呼吸"
+      ],
+      "id": "ex_plank"
+    },
+    {
+      "name": "死虫式",
+      "region": "核心",
+      "joints": [
+        "脊柱中立 + 对侧肢控制"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "核心"
+      ],
+      "muscles": [
+        "腹横肌",
+        "腹直肌",
+        "髂腰肌控制"
+      ],
+      "anatomyNote": "仰卧抗伸展，适合学习腹压与骨盆控制。",
+      "nameEn": "Dead Bug",
+      "cues": [
+        "下背贴地",
+        "对侧手脚远离",
+        "呼气发力"
+      ],
+      "id": "ex_dead_bug"
+    },
+    {
+      "name": "鸟狗式",
+      "region": "核心",
+      "joints": [
+        "对侧肢伸展 + 脊柱稳定"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "核心",
+        "背"
+      ],
+      "muscles": [
+        "多裂肌",
+        "臀大肌",
+        "背阔肌",
+        "腹横肌"
+      ],
+      "anatomyNote": "抗旋转与腰椎稳定入门动作，恢复日友好。",
+      "nameEn": "Bird Dog",
+      "cues": [
+        "对侧手脚伸展",
+        "骨盆几乎不动",
+        "慢速"
+      ],
+      "id": "ex_bird_dog"
+    },
+    {
+      "name": "哑铃农夫行走",
+      "region": "核心/握力",
+      "joints": [
+        "抗侧屈行走"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "核心",
+        "背"
+      ],
+      "muscles": [
+        "腹斜肌",
+        "竖脊肌",
+        "前臂屈肌",
+        "斜方"
+      ],
+      "anatomyNote": "功能性抗侧屈与握力，居家哑铃友好。",
+      "nameEn": "Dumbbell Farmer Carry",
+      "cues": [
+        "站高走稳",
+        "肩下沉",
+        "步幅自然"
+      ],
+      "id": "ex_farmer_carry_db"
+    },
+    {
+      "name": "哑铃/弹力带侧平举",
+      "region": "肩中束",
+      "joints": [
+        "肩外展"
+      ],
+      "equipmentTags": [
+        "哑铃",
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩中束"
+      ],
+      "muscles": [
+        "肩中束",
+        "冈上肌",
+        "肱二头肌长头"
+      ],
+      "anatomyNote": "肩关节外展：大臂：内→外",
+      "imagePath": "assets/exercises/images/ek_lateral-dumbbell-raises.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃/弹力带提拉",
+      "region": "肩中束",
+      "joints": [
+        "肩外展",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "哑铃",
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩中束"
+      ],
+      "muscles": [
+        "肩中束",
+        "冈上肌",
+        "肱二头肌长头",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节外展：大臂：内→外；肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_dumbbell-upright-rows.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃/龙门架侧平举",
+      "region": "肩中束",
+      "joints": [
+        "肩外展"
+      ],
+      "equipmentTags": [
+        "哑铃",
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩中束"
+      ],
+      "muscles": [
+        "肩中束",
+        "冈上肌",
+        "肱二头肌长头"
+      ],
+      "anatomyNote": "肩关节外展：大臂：内→外",
+      "imagePath": "assets/exercises/images/ek_lateral-dumbbell-raises.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃提拉",
+      "region": "肩中束",
+      "joints": [
+        "肩外展",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "杠铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩中束"
+      ],
+      "muscles": [
+        "肩中束",
+        "冈上肌",
+        "肱二头肌长头",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节外展：大臂：内→外；肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_upright-barbell-rows.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃/弹力带前平举",
+      "region": "肩前束",
+      "joints": [
+        "肩屈"
+      ],
+      "equipmentTags": [
+        "哑铃",
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩前束"
+      ],
+      "muscles": [
+        "肩前束",
+        "上胸",
+        "肱二头肌"
+      ],
+      "anatomyNote": "肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_front-dumbbell-raise.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃/弹力带推举",
+      "region": "肩前束",
+      "joints": [
+        "肩屈mix肩外展",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "哑铃",
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩前束"
+      ],
+      "muscles": [
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肩中束",
+        "冈上肌",
+        "肱二头肌长头",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节屈：大臂：后→前；肩关节外展：大臂：内→外",
+      "imagePath": "assets/exercises/images/ek_one-arm-dumbbell-shoulder-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "器械/哑铃/史密斯推举",
+      "region": "肩前束",
+      "joints": [
+        "肩屈mix肩外展",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "哑铃",
+        "史密斯",
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩前束"
+      ],
+      "muscles": [
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肩中束",
+        "冈上肌",
+        "肱二头肌长头",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节屈：大臂：后→前；肩关节外展：大臂：内→外",
+      "imagePath": "assets/exercises/images/ek_seated-military-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃/哑铃片前平举",
+      "region": "肩前束",
+      "joints": [
+        "肩屈"
+      ],
+      "equipmentTags": [
+        "杠铃",
+        "哑铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩前束"
+      ],
+      "muscles": [
+        "肩前束",
+        "上胸",
+        "肱二头肌"
+      ],
+      "anatomyNote": "肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_front-dumbbell-raise.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "弹力带开合（肩水平外展）",
+      "region": "肩后",
+      "joints": [
+        "肩水平外展"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "肩",
+        "背"
+      ],
+      "muscles": [
+        "三角肌后束",
+        "菱形肌",
+        "中斜方"
+      ],
+      "anatomyNote": "肩后与上背激活，推日热身/收尾常用。",
+      "nameEn": "Band Pull-Apart",
+      "cues": [
+        "手臂微屈固定",
+        "肩胛后缩",
+        "控制回程"
+      ],
+      "id": "ex_band_pull_apart"
+    },
+    {
+      "name": "弹力带面拉",
+      "region": "肩后/上背",
+      "joints": [
+        "肩外旋",
+        "肩水平外展"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "肩",
+        "背"
+      ],
+      "muscles": [
+        "三角肌后束",
+        "外旋肌群",
+        "中下斜方"
+      ],
+      "anatomyNote": "平衡推胸推举带来的前侧主导，改善肩带姿势。",
+      "nameEn": "Band Face Pull",
+      "cues": [
+        "肘高、外旋",
+        "肩胛后缩下沉",
+        "勿耸肩"
+      ],
+      "id": "ex_face_pull_band"
+    },
+    {
+      "name": "哑铃俯身飞鸟",
+      "region": "肩后束",
+      "joints": [
+        "肩水平外展"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm",
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩后束"
+      ],
+      "muscles": [
+        "肩后束",
+        "冈下肌"
+      ],
+      "anatomyNote": "肩关节水平外展：大臂：在水平面，内→外",
+      "imagePath": "assets/exercises/images/ek_bent-over-rear-deltoid-raise-with-head-on-bench.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "坐姿器械/绳索划船（水平开肘）",
+      "region": "肩后束",
+      "joints": [
+        "肩水平外展",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "器械",
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩后束"
+      ],
+      "muscles": [
+        "肩后束",
+        "冈下肌",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节水平外展：大臂：在水平面，内→外；肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_seated-cable-rows.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "弹力带划船（水平开肘）",
+      "region": "肩后束",
+      "joints": [
+        "肩水平外展",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩后束"
+      ],
+      "muscles": [
+        "肩后束",
+        "冈下肌",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节水平外展：大臂：在水平面，内→外；肘关节屈：肘关节：打直→折叠"
+    },
+    {
+      "name": "弹力带反向飞鸟",
+      "region": "肩后束",
+      "joints": [
+        "肩水平外展"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩后束"
+      ],
+      "muscles": [
+        "肩后束",
+        "冈下肌"
+      ],
+      "anatomyNote": "肩关节水平外展：大臂：在水平面，内→外",
+      "imagePath": "assets/exercises/images/ek_back-flys-exercise-band.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "蝴蝶机反向飞鸟",
+      "region": "肩后束",
+      "joints": [
+        "肩水平外展"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩后束"
+      ],
+      "muscles": [
+        "肩后束",
+        "冈下肌"
+      ],
+      "anatomyNote": "肩关节水平外展：大臂：在水平面，内→外"
+    },
+    {
+      "name": "龙门架反向飞鸟",
+      "region": "肩后束",
+      "joints": [
+        "肩水平外展"
+      ],
+      "equipmentTags": [
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肩后束"
+      ],
+      "muscles": [
+        "肩后束",
+        "冈下肌"
+      ],
+      "anatomyNote": "肩关节水平外展：大臂：在水平面，内→外",
+      "imagePath": "assets/exercises/images/ek_seated-rear-lateral-cable-raise.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "靠墙天使",
+      "region": "肩带",
+      "joints": [
+        "肩外展外旋 + 胸椎伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "肩",
+        "背"
+      ],
+      "muscles": [
+        "中下斜方",
+        "菱形肌",
+        "外旋肌"
+      ],
+      "anatomyNote": "胸椎伸展与肩外旋活动度/控制，适合久坐与推训练日收尾。",
+      "nameEn": "Wall Angel",
+      "cues": [
+        "背贴墙",
+        "手肘滑动不离墙",
+        "肋骨不下翻"
+      ],
+      "id": "ex_wall_angel"
+    },
+    {
+      "name": "哑铃/弹力带颈后臂屈伸",
+      "region": "肱三头",
+      "joints": [
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "哑铃",
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱三头"
+      ],
+      "muscles": [
+        "肱三头肌"
+      ],
+      "anatomyNote": "肘关节伸：肘关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_seated-two-arm-triceps-extension-with-dumbbell.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃仰卧臂屈伸",
+      "region": "肱三头",
+      "joints": [
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱三头"
+      ],
+      "muscles": [
+        "肱三头肌"
+      ],
+      "anatomyNote": "肘关节伸：肘关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_lying-triceps-extension-with-dumbbells.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃颈后臂屈伸",
+      "region": "肱三头",
+      "joints": [
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱三头"
+      ],
+      "muscles": [
+        "肱三头肌"
+      ],
+      "anatomyNote": "肘关节伸：肘关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_seated-two-arm-triceps-extension-with-dumbbell.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃/哑铃/史密斯窄距卧推",
+      "region": "肱三头",
+      "joints": [
+        "肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "杠铃",
+        "哑铃",
+        "史密斯"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱三头"
+      ],
+      "muscles": [
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节屈：大臂：后→前；肘关节伸：肘关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_close-grip-barbell-bench-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃仰卧臂屈伸",
+      "region": "肱三头",
+      "joints": [
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "杠铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱三头"
+      ],
+      "muscles": [
+        "肱三头肌"
+      ],
+      "anatomyNote": "肘关节伸：肘关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_lying-triceps-press-with-barbell.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "窄距俯卧撑",
+      "region": "肱三头",
+      "joints": [
+        "肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱三头"
+      ],
+      "muscles": [
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节屈：大臂：后→前；肘关节伸：肘关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_close-triceps-pushup.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "龙门架直杆下压",
+      "region": "肱三头",
+      "joints": [
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱三头"
+      ],
+      "muscles": [
+        "肱三头肌"
+      ],
+      "anatomyNote": "肘关节伸：肘关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_triceps-pushdown-with-v-bar-and-cable.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "龙门架绳索臂屈伸",
+      "region": "肱三头",
+      "joints": [
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱三头"
+      ],
+      "muscles": [
+        "肱三头肌"
+      ],
+      "anatomyNote": "肘关节伸：肘关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_triceps-pushdown-with-rope-and-cable.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃弯举",
+      "region": "肱二头",
+      "joints": [
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm",
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱二头"
+      ],
+      "muscles": [
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_biceps-curl-with-dumbbell.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "器械弯举",
+      "region": "肱二头",
+      "joints": [
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱二头"
+      ],
+      "muscles": [
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_biceps-curl-with-machine.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "弹力带弯举",
+      "region": "肱二头",
+      "joints": [
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱二头"
+      ],
+      "muscles": [
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_quick-alternating-biceps-curls-with-band.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃弯举",
+      "region": "肱二头",
+      "joints": [
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "杠铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱二头"
+      ],
+      "muscles": [
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_biceps-curls-with-barbell.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "牧师椅弯举",
+      "region": "肱二头",
+      "joints": [
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱二头"
+      ],
+      "muscles": [
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_preacher-curl-with-barbell.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "集中弯举",
+      "region": "肱二头",
+      "joints": [
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm",
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "肱二头"
+      ],
+      "muscles": [
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_concentration-curls-with-dumbbell.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "T杆俯身划船",
+      "region": "背",
+      "joints": [
+        "[中握]肩伸mix肩水平外展",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "肩后束",
+        "肱三头肌长头",
+        "下胸",
+        "冈下肌",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节伸：大臂：前→后；肩关节水平外展：大臂：在水平面，内→外",
+      "imagePath": "assets/exercises/images/ek_t-bar-rows.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "单边哑铃划船",
+      "region": "背",
+      "joints": [
+        "肩伸",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm",
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "肩后束",
+        "肱三头肌长头",
+        "下胸",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节伸：大臂：前→后；肘关节屈：肘关节：打直→折叠"
+    },
+    {
+      "name": "器械下拉",
+      "region": "背",
+      "joints": [
+        "[窄握]肩伸",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "肩后束",
+        "肱三头肌长头",
+        "下胸",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节伸：大臂：前→后；肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_v-bar-pull-down.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "坐姿器械划船",
+      "region": "背",
+      "joints": [
+        "[窄握]肩伸",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "肩后束",
+        "肱三头肌长头",
+        "下胸",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节伸：大臂：前→后；肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_seated-cable-rows.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "引体向上",
+      "region": "背",
+      "joints": [
+        "[宽握]肩内收",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节内收：大臂：外→内；肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_pull-ups.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "引体向上（可用弹力带减重）",
+      "region": "背",
+      "joints": [
+        "[宽握]肩内收",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "弹力带",
+        "自重"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节内收：大臂：外→内；肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_pull-ups.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "弹力带俯身划船",
+      "region": "背",
+      "joints": [
+        "[宽握]肩水平外展",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "肩后束",
+        "冈下肌",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节水平外展：大臂：在水平面，内→外；肘关节屈：肘关节：打直→折叠"
+    },
+    {
+      "name": "杠铃俯身划船",
+      "region": "背",
+      "joints": [
+        "[宽握]肩水平外展",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "杠铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "肩后束",
+        "冈下肌",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节水平外展：大臂：在水平面，内→外；肘关节屈：肘关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_reverse-grips-bent-over-barbell-rows.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "澳式划船（桌下水平划船）",
+      "region": "背",
+      "joints": [
+        "肩伸",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "自重",
+        "桌子/低杠"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "菱形肌",
+        "肱二头肌"
+      ],
+      "anatomyNote": "水平拉：建立肩胛稳定与拉力链，引体前的常用过渡。",
+      "nameEn": "Inverted Row / Body Row",
+      "cues": [
+        "身体成一条线",
+        "肘向后下方拉",
+        "肩胛先启动再屈肘"
+      ],
+      "id": "ex_australian_row",
+      "imagePath": "assets/exercises/images/ek_body-row.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "高位下拉",
+      "region": "背",
+      "joints": [
+        "[中握]肩内收mix肩伸",
+        "肘屈"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸",
+        "肩后束",
+        "肱三头肌长头",
+        "下胸",
+        "肱二头肌",
+        "肱肌",
+        "肱桡肌"
+      ],
+      "anatomyNote": "肩关节内收：大臂：外→内；肩关节伸：大臂：前→后",
+      "imagePath": "assets/exercises/images/ek_underhand-pull-down.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "龙门架直臂下压",
+      "region": "背",
+      "joints": [
+        "肩伸"
+      ],
+      "equipmentTags": [
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "背"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "肩后束",
+        "肱三头肌长头",
+        "下胸"
+      ],
+      "anatomyNote": "肩关节伸：大臂：前→后",
+      "imagePath": "assets/exercises/images/ek_straight-arm-push-down.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "俯卧撑",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_push-ups.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "俯卧撑（手垫高10cm）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩内收",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节内收：大臂：外→内"
+    },
+    {
+      "name": "俯卧撑（脚垫高20cm）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_push-up-feet-elevated.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "双杠臂屈伸（上身前趴30-60°）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩内收",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm",
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节内收：大臂：外→内",
+      "imagePath": "assets/exercises/images/ek_chest-dips.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃卧推",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_bench-press-dumbbell.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃卧推（下斜推）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩内收",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节内收：大臂：外→内",
+      "imagePath": "assets/exercises/images/ek_decline-dumbbell-bench-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "器械推胸（上斜推）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_smith-machine-incline-bench-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "器械推胸（下斜推）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩内收",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节内收：大臂：外→内",
+      "imagePath": "assets/exercises/images/ek_decline-chest-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "器械推胸（水平推）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_machine-bench-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "弹力带夹胸（上斜夹）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前"
+    },
+    {
+      "name": "弹力带夹胸（下斜夹）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩内收"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节内收：大臂：外→内"
+    },
+    {
+      "name": "弹力带夹胸（完全下夹）",
+      "region": "胸",
+      "joints": [
+        "肩内收"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸"
+      ],
+      "anatomyNote": "肩关节内收：大臂：外→内"
+    },
+    {
+      "name": "弹力带夹胸（水平夹）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内",
+      "imagePath": "assets/exercises/images/ek_crossover-bands.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃/哑铃/史密斯卧推（上斜推）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "杠铃",
+        "哑铃",
+        "史密斯"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_incline-bench-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃/哑铃/史密斯卧推（下斜推）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩内收",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "杠铃",
+        "哑铃",
+        "史密斯"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节内收：大臂：外→内",
+      "imagePath": "assets/exercises/images/ek_decline-barbell-bench-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃/哑铃/史密斯卧推（水平推）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "杠铃",
+        "哑铃",
+        "史密斯"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_bench-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃卧推（上斜推）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "杠铃"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌",
+        "肱三头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_incline-bench-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "蝴蝶机夹胸",
+      "region": "胸",
+      "joints": [
+        "肩水平内收"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内",
+      "imagePath": "assets/exercises/images/ek_dumbbell-flys.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "跪姿俯卧撑",
+      "region": "胸",
+      "joints": [
+        "肩水平内收",
+        "肘伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "胸",
+        "肩",
+        "肱三头"
+      ],
+      "muscles": [
+        "胸大肌",
+        "三角肌前束",
+        "肱三头肌"
+      ],
+      "anatomyNote": "水平推的退阶变体，降低相对负荷以建立推胸模式。",
+      "nameEn": "Knee Push-up",
+      "cues": [
+        "膝着地缩短力臂",
+        "躯干一直线",
+        "肘约 45° 开合"
+      ],
+      "id": "ex_knee_pushup"
+    },
+    {
+      "name": "龙门架夹胸（上斜夹）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩屈"
+      ],
+      "equipmentTags": [
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "上胸",
+        "肱二头肌"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_incline-cable-flys.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "龙门架夹胸（下斜夹）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收mix肩内收"
+      ],
+      "equipmentTags": [
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束",
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内；肩关节内收：大臂：外→内"
+    },
+    {
+      "name": "龙门架夹胸（完全下夹）",
+      "region": "胸",
+      "joints": [
+        "肩内收"
+      ],
+      "equipmentTags": [
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "背阔肌",
+        "大圆肌",
+        "下胸中胸"
+      ],
+      "anatomyNote": "肩关节内收：大臂：外→内",
+      "imagePath": "assets/exercises/images/ek_cable-crossover.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "龙门架夹胸（水平夹）",
+      "region": "胸",
+      "joints": [
+        "肩水平内收"
+      ],
+      "equipmentTags": [
+        "绳索"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "胸"
+      ],
+      "muscles": [
+        "上胸中胸",
+        "肩前束"
+      ],
+      "anatomyNote": "肩关节水平内收：大臂：在水平面，外→内",
+      "imagePath": "assets/exercises/images/ek_cable-crossover.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "平板卷腹",
+      "region": "腹 男性要练 女性偶尔练下",
+      "joints": [
+        "躯干屈曲（借用膝关节格子）",
+        "躯干屈曲"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm",
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "腹 男性要练 女性偶尔练下"
+      ],
+      "muscles": [
+        "腘绳肌",
+        "腓肠肌",
+        "肩前束",
+        "上胸",
+        "肱二头肌"
+      ],
+      "anatomyNote": "膝关节屈：膝关节：打直→折叠；肩关节屈：大臂：后→前",
+      "imagePath": "assets/exercises/images/ek_crunches.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "悬垂举腿",
+      "region": "腹 男性要练 女性偶尔练下",
+      "joints": [
+        "骨盆后倾（借用膝关节格子）",
+        "髋屈",
+        "骨盆后倾 髋屈"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm",
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "腹 男性要练 女性偶尔练下"
+      ],
+      "muscles": [
+        "肩前束",
+        "上胸",
+        "肱二头肌"
+      ],
+      "anatomyNote": "肩关节屈：大臂：后→前"
+    },
+    {
+      "name": "登阶",
+      "region": "腿",
+      "joints": [
+        "髋伸",
+        "膝伸"
+      ],
+      "equipmentTags": [
+        "自重",
+        "哑铃可选",
+        "稳固台阶"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "腿",
+        "臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "单腿力量与日常爬楼模式迁移好。",
+      "nameEn": "Step-up",
+      "cues": [
+        "整脚踏上",
+        "推动站腿而非借力摆腿",
+        "控制下降"
+      ],
+      "id": "ex_step_up"
+    },
+    {
+      "name": "自重深蹲",
+      "region": "腿",
+      "joints": [
+        "髋屈伸",
+        "膝屈伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "腿"
+      ],
+      "muscles": [
+        "股四头肌",
+        "臀大肌",
+        "腘绳肌"
+      ],
+      "anatomyNote": "髋膝协同伸：下蹲离心控制，起立向心发力，优先髋主导。",
+      "nameEn": "Bodyweight Squat",
+      "cues": [
+        "脚与肩同宽或略宽",
+        "膝朝脚尖方向",
+        "髋后坐、胸廓打开"
+      ],
+      "id": "ex_bodyweight_squat"
+    },
+    {
+      "name": "高脚杯深蹲",
+      "region": "腿",
+      "joints": [
+        "髋屈伸",
+        "膝屈伸"
+      ],
+      "equipmentTags": [
+        "哑铃",
+        "壶铃"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "腿"
+      ],
+      "muscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "与「哑铃深蹲（高脚杯）」同族；直立躯干更易学。",
+      "nameEn": "Goblet Squat",
+      "cues": [
+        "重量贴胸",
+        "肘在膝内侧引导",
+        "跟脚全掌着地"
+      ],
+      "id": "ex_goblet_squat_alias",
+      "imagePath": "assets/exercises/images/ek_squats-using-dumbbells.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "倒蹬机",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_leg-press.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "史密斯深蹲",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "史密斯"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_smith-machine-squats.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哈克机",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_hack-squat-machine.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃深蹲（又叫高脚杯深蹲）",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_squats-using-dumbbells.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃硬拉",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_dumbbell-dead-lifts.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "哑铃箭步蹲（单腿动作 无需大哑铃）",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "哑铃"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_dumbbell-lunges.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "器械腿屈伸",
+      "region": "腿臀",
+      "joints": [
+        "膝伸"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_leg-extensions.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "器械腿弯举",
+      "region": "腿臀",
+      "joints": [
+        "膝屈"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "腘绳肌",
+        "腓肠肌"
+      ],
+      "anatomyNote": "膝关节屈：膝关节：打直→折叠",
+      "imagePath": "assets/exercises/images/ek_lying-leg-curl-machine.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "器械臀冲",
+      "region": "腿臀",
+      "joints": [
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "器械"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "髋关节伸：髋关节：折叠→打直"
+    },
+    {
+      "name": "弹力带硬拉",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直"
+    },
+    {
+      "name": "弹力带臀桥",
+      "region": "腿臀",
+      "joints": [
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "髋关节伸：髋关节：折叠→打直"
+    },
+    {
+      "name": "弹力带髋外展",
+      "region": "腿臀",
+      "joints": [
+        "髋外展"
+      ],
+      "equipmentTags": [
+        "弹力带"
+      ],
+      "templateIds": [
+        "home_3day"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "肩中束",
+        "冈上肌",
+        "肱二头肌长头"
+      ],
+      "anatomyNote": "肩关节外展：大臂：内→外"
+    },
+    {
+      "name": "杠铃深蹲",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "杠铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_barbell-squat.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "杠铃臀冲",
+      "region": "腿臀",
+      "joints": [
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "杠铃"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "髋关节伸：髋关节：折叠→打直"
+    },
+    {
+      "name": "箭步蹲",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_barbell-lunges.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "罗马尼亚/传统硬拉",
+      "region": "腿臀",
+      "joints": [
+        "膝伸",
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "综合"
+      ],
+      "templateIds": [
+        "gym_3day",
+        "gym_4day_shoulder",
+        "gym_4day_arm"
+      ],
+      "source": "excel",
+      "regions": [
+        "腿臀"
+      ],
+      "muscles": [
+        "股四头肌",
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "anatomyNote": "膝关节伸：膝关节：折叠→打直；髋关节伸：髋关节：折叠→打直",
+      "imagePath": "assets/exercises/images/ek_barbell-dead-lifts.png",
+      "imageLicense": "CC-BY-SA-4.0",
+      "imageSource": "everkinetic",
+      "imageAttribution": "Everkinetic open data (CC-BY-SA 4.0)"
+    },
+    {
+      "name": "侧卧髋外展",
+      "region": "臀",
+      "joints": [
+        "髋外展"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "臀"
+      ],
+      "muscles": [
+        "臀中肌",
+        "臀小肌"
+      ],
+      "anatomyNote": "加强髋外展稳定，对深蹲膝内扣与女性髋部力量常见短板有帮助。",
+      "nameEn": "Side-lying Hip Abduction",
+      "cues": [
+        "骨盆不前后滚",
+        "脚尖略内旋或中立",
+        "控制离心"
+      ],
+      "id": "ex_side_lying_hip_abduction"
+    },
+    {
+      "name": "臀桥",
+      "region": "臀腿",
+      "joints": [
+        "髋伸"
+      ],
+      "equipmentTags": [
+        "自重"
+      ],
+      "templateIds": [],
+      "source": "curated",
+      "regions": [
+        "臀",
+        "腿"
+      ],
+      "muscles": [
+        "臀大肌",
+        "腘绳肌"
+      ],
+      "anatomyNote": "孤立髋伸模式，适合激活臀肌与改善久坐髋屈紧张。",
+      "nameEn": "Glute Bridge",
+      "cues": [
+        "脚跟蹬地",
+        "顶峰收紧臀部",
+        "避免过度塌腰"
+      ],
+      "id": "ex_glute_bridge"
+    }
+  ],
+  "source": "excel+curated"
+}

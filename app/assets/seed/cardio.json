@@ -1,0 +1,495 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "name": "站立 / 站立不动",
+      "category": "站立",
+      "kcalPerKgPerHour": 0.4,
+      "source": "excel"
+    },
+    {
+      "name": "站立 / 站立打字办公",
+      "category": "站立",
+      "kcalPerKgPerHour": 0.6,
+      "source": "excel"
+    },
+    {
+      "name": "站立 / 站立工作（店员）",
+      "category": "站立",
+      "kcalPerKgPerHour": 0.9,
+      "source": "excel"
+    },
+    {
+      "name": "平地走 / 每走一万步",
+      "category": "平地走",
+      "kcalPerKgPerHour": 3.8,
+      "source": "excel"
+    },
+    {
+      "name": "平地走 / 每走一小时",
+      "category": "平地走",
+      "kcalPerKgPerHour": 3.8,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度2%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 3.28,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度3%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 3.72,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度4%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 4.15,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度5%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 4.59,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度6%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 5.02,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度7%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 5.46,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度8%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 5.89,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度9%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 6.32,
+      "source": "excel"
+    },
+    {
+      "name": "爬坡走 / 跑步机坡度10%",
+      "category": "爬坡走",
+      "kcalPerKgPerHour": 6.76,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 6km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 5.5,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 7km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 7.2,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 8km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 9.5,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 9km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 9.6,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 9.66km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 9.768,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 12km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 10.1,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 13km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 10.1,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 14km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 10.4,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 15km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 10.9,
+      "source": "excel"
+    },
+    {
+      "name": "跑步 / 16km/h",
+      "category": "跑步",
+      "kcalPerKgPerHour": 12.7,
+      "source": "excel"
+    },
+    {
+      "name": "户外骑行 / 10km/h",
+      "category": "户外骑行",
+      "kcalPerKgPerHour": 3.6,
+      "source": "excel"
+    },
+    {
+      "name": "户外骑行 / 12km/h",
+      "category": "户外骑行",
+      "kcalPerKgPerHour": 3.9,
+      "source": "excel"
+    },
+    {
+      "name": "户外骑行 / 13km/h",
+      "category": "户外骑行",
+      "kcalPerKgPerHour": 4.4,
+      "source": "excel"
+    },
+    {
+      "name": "户外骑行 / 15km/h",
+      "category": "户外骑行",
+      "kcalPerKgPerHour": 5.5,
+      "source": "excel"
+    },
+    {
+      "name": "户外骑行 / 18km/h",
+      "category": "户外骑行",
+      "kcalPerKgPerHour": 6.5,
+      "source": "excel"
+    },
+    {
+      "name": "户外骑行 / 20km/h",
+      "category": "户外骑行",
+      "kcalPerKgPerHour": 7.4,
+      "source": "excel"
+    },
+    {
+      "name": "户外骑行 / 23km/h",
+      "category": "户外骑行",
+      "kcalPerKgPerHour": 9.5,
+      "source": "excel"
+    },
+    {
+      "name": "户外骑行 / 30km/h",
+      "category": "户外骑行",
+      "kcalPerKgPerHour": 11.6,
+      "source": "excel"
+    },
+    {
+      "name": "游泳 / 1.09728",
+      "category": "游泳",
+      "kcalPerKgPerHour": 4.224,
+      "source": "excel"
+    },
+    {
+      "name": "游泳 / 2.46888",
+      "category": "游泳",
+      "kcalPerKgPerHour": 7.656,
+      "source": "excel"
+    },
+    {
+      "name": "游泳 / 2.7432",
+      "category": "游泳",
+      "kcalPerKgPerHour": 9.24,
+      "source": "excel"
+    },
+    {
+      "name": "室内单车 / 功率50-90W",
+      "category": "室内单车",
+      "kcalPerKgPerHour": 4.8,
+      "source": "excel"
+    },
+    {
+      "name": "室内单车 / 功率90-100W",
+      "category": "室内单车",
+      "kcalPerKgPerHour": 6.8,
+      "source": "excel"
+    },
+    {
+      "name": "室内单车 / 功率100-160W",
+      "category": "室内单车",
+      "kcalPerKgPerHour": 8.8,
+      "source": "excel"
+    },
+    {
+      "name": "室内单车 / 功率160-200W",
+      "category": "室内单车",
+      "kcalPerKgPerHour": 11.0,
+      "source": "excel"
+    },
+    {
+      "name": "室内单车 / 功率200-270W",
+      "category": "室内单车",
+      "kcalPerKgPerHour": 14.0,
+      "source": "excel"
+    },
+    {
+      "name": "球类 / 篮球",
+      "category": "球类",
+      "kcalPerKgPerHour": 6.1,
+      "source": "excel"
+    },
+    {
+      "name": "球类 / 足球",
+      "category": "球类",
+      "kcalPerKgPerHour": 7.0,
+      "source": "excel"
+    },
+    {
+      "name": "球类 / 排球",
+      "category": "球类",
+      "kcalPerKgPerHour": 4.1,
+      "source": "excel"
+    },
+    {
+      "name": "球类 / 网球",
+      "category": "球类",
+      "kcalPerKgPerHour": 8.9,
+      "source": "excel"
+    },
+    {
+      "name": "球类 / 乒乓球",
+      "category": "球类",
+      "kcalPerKgPerHour": 6.6,
+      "source": "excel"
+    },
+    {
+      "name": "球类 / 羽毛球",
+      "category": "球类",
+      "kcalPerKgPerHour": 7.4,
+      "source": "excel"
+    },
+    {
+      "name": "跳操跟练 / 轻松强度",
+      "category": "跳操跟练",
+      "kcalPerKgPerHour": 2.3,
+      "source": "excel"
+    },
+    {
+      "name": "跳操跟练 / 中等强度",
+      "category": "跳操跟练",
+      "kcalPerKgPerHour": 4.0,
+      "source": "excel"
+    },
+    {
+      "name": "跳操跟练 / 剧烈强度",
+      "category": "跳操跟练",
+      "kcalPerKgPerHour": 6.0,
+      "source": "excel"
+    },
+    {
+      "name": "室内其他项目 / 瑜伽",
+      "category": "室内其他项目",
+      "kcalPerKgPerHour": 3.1,
+      "source": "excel"
+    },
+    {
+      "name": "室内其他项目 / 舞蹈",
+      "category": "室内其他项目",
+      "kcalPerKgPerHour": 5.0,
+      "source": "excel"
+    },
+    {
+      "name": "室内其他项目 / 椭圆仪",
+      "category": "室内其他项目",
+      "kcalPerKgPerHour": 5.0,
+      "source": "excel"
+    },
+    {
+      "name": "室内其他项目 / 普拉提",
+      "category": "室内其他项目",
+      "kcalPerKgPerHour": 3.0,
+      "source": "excel"
+    },
+    {
+      "name": "室内其他项目 / 健身环",
+      "category": "室内其他项目",
+      "kcalPerKgPerHour": 5.0,
+      "source": "excel"
+    },
+    {
+      "name": "爬楼 / 上楼",
+      "category": "爬楼",
+      "kcalPerKgPerHour": 8.0,
+      "source": "excel"
+    },
+    {
+      "name": "爬楼 / 下楼",
+      "category": "爬楼",
+      "kcalPerKgPerHour": 3.1,
+      "source": "excel"
+    },
+    {
+      "name": "划船机 / 功率100W",
+      "category": "划船机",
+      "kcalPerKgPerHour": 7.0,
+      "source": "excel"
+    },
+    {
+      "name": "划船机 / 功率150W",
+      "category": "划船机",
+      "kcalPerKgPerHour": 8.5,
+      "source": "excel"
+    },
+    {
+      "name": "划船机 / 功率200W",
+      "category": "划船机",
+      "kcalPerKgPerHour": 12.0,
+      "source": "excel"
+    },
+    {
+      "name": "拳击 / 打沙袋",
+      "category": "拳击",
+      "kcalPerKgPerHour": 5.5,
+      "source": "excel"
+    },
+    {
+      "name": "拳击 / 真人格斗",
+      "category": "拳击",
+      "kcalPerKgPerHour": 7.8,
+      "source": "excel"
+    },
+    {
+      "name": "跳绳 / <100次/分钟",
+      "category": "跳绳",
+      "kcalPerKgPerHour": 8.8,
+      "source": "excel"
+    },
+    {
+      "name": "跳绳 / 100-120次/分钟",
+      "category": "跳绳",
+      "kcalPerKgPerHour": 11.8,
+      "source": "excel"
+    },
+    {
+      "name": "跳绳 / 120-160次/分钟",
+      "category": "跳绳",
+      "kcalPerKgPerHour": 12.3,
+      "source": "excel"
+    },
+    {
+      "name": "Zone2 快走 / 爬坡走",
+      "category": "LISS",
+      "kcalPerKgPerHour": 4.0,
+      "mets": 3.5,
+      "source": "curated",
+      "note": "能连贯说话的强度；减脂首选"
+    },
+    {
+      "name": "Zone2 慢跑",
+      "category": "LISS",
+      "kcalPerKgPerHour": 7.0,
+      "mets": 6.0,
+      "source": "curated",
+      "note": "仍应能短句交谈；高于此强度不算本计划 Zone2"
+    },
+    {
+      "name": "室内单车 Zone2",
+      "category": "LISS",
+      "kcalPerKgPerHour": 5.5,
+      "mets": 5.0,
+      "source": "curated",
+      "note": ""
+    },
+    {
+      "name": "椭圆机 Zone2",
+      "category": "LISS",
+      "kcalPerKgPerHour": 5.0,
+      "mets": 4.5,
+      "source": "curated",
+      "note": ""
+    },
+    {
+      "name": "游泳（轻松持续）",
+      "category": "LISS",
+      "kcalPerKgPerHour": 7.5,
+      "mets": 6.5,
+      "source": "curated",
+      "note": ""
+    },
+    {
+      "name": "跳绳（间歇，低冲击替代：踏步）",
+      "category": "间歇可选",
+      "kcalPerKgPerHour": 9.0,
+      "mets": 8.0,
+      "source": "curated",
+      "note": "非默认 Zone2；关节友好者可短间歇"
+    },
+    {
+      "name": "NEAT：日常步行增量",
+      "category": "NEAT",
+      "kcalPerKgPerHour": 3.5,
+      "mets": 3.0,
+      "source": "curated",
+      "note": "非正式训练；减脂期鼓励提高日常步数"
+    }
+  ],
+  "programmingRules": {
+    "cut": {
+      "defaultEnabled": true,
+      "exceptWeightKgGte": 80,
+      "weeklyMinutes": {
+        "beginner": 90,
+        "intermediate": 120,
+        "advanced": 150
+      },
+      "sessionMinutes": {
+        "min": 20,
+        "default": 30,
+        "max": 45
+      },
+      "intensity": "zone2_liss",
+      "note": "以饮食缺口为主；有氧为可选 Zone2/LISS，不强制排进力量队列日期。"
+    },
+    "bulk": {
+      "defaultEnabled": false,
+      "weeklyMinutesCap": 60,
+      "sessionMinutes": {
+        "min": 15,
+        "default": 20,
+        "max": 25
+      },
+      "intensity": "short_liss_only",
+      "note": "增肌默认不做有氧；用户坚持开启时仅短时 LISS，避免干扰恢复。"
+    }
+  },
+  "citations": [
+    {
+      "topic": "成人有氧活动量",
+      "org": "WHO",
+      "summary": "成人每周至少 150–300 分钟中等强度有氧，或 75–150 分钟高强度，可组合；另加肌力训练。",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+    },
+    {
+      "topic": "心肺训练分区（通俗 Zone2）",
+      "org": "ACSM-informed public guidance",
+      "summary": "减脂与恢复友好的稳态有氧多落在可交谈、略喘的中低强度（约最大心率 60–70% 的通俗 Zone2/LISS）。本 App 用主观「能说话」代替心率带强制。",
+      "url": "https://www.acsm.org/"
+    },
+    {
+      "topic": "蛋白摄入区间（健身人群）",
+      "org": "ISSN position stand (public summaries)",
+      "summary": "增肌/减脂期常见 1.6–2.2 g/kg/day 蛋白区间；本 App 宏量仍以 Excel 配额为主，ISSN 仅作校验参考。",
+      "url": "https://jissn.biomedcentral.com/"
+    }
+  ],
+  "source": "excel+curated"
+}

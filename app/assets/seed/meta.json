@@ -1,0 +1,54 @@
+{
+  "seedVersion": 5,
+  "generatedAt": "2026-07-26T12:52:37.986448+00:00",
+  "generatedBy": "tools/build_seed.py",
+  "sources": [
+    {
+      "id": "excel",
+      "path": "健身资料.xlsx"
+    },
+    {
+      "id": "curated",
+      "path": "tools/curated/"
+    },
+    {
+      "id": "everkinetic",
+      "url": "https://github.com/everkinetic/data",
+      "license": "CC-BY-SA-4.0",
+      "usedFor": "exercise illustrations (high-confidence matches only)"
+    },
+    {
+      "id": "who_physical_activity",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "usedFor": "adult aerobic volume guidance summary"
+    },
+    {
+      "id": "issn_protein_2017",
+      "url": "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8",
+      "usedFor": "protein g/kg range summary for diet seed"
+    },
+    {
+      "id": "who_fats_carbs_2023",
+      "url": "https://www.who.int/news/item/17-07-2023-who-updates-guidelines-on-fats-and-carbohydrates",
+      "usedFor": "public fat quality / total fat guidance summary"
+    },
+    {
+      "id": "cns_dietary_guidelines_2022",
+      "url": "https://www.cnsoc.org/notice/442220200.html",
+      "usedFor": "cooking oil / dairy plain-language guidance"
+    }
+  ],
+  "stats": {
+    "exercises": 98,
+    "cardioItems": 71,
+    "yogaSequences": 5,
+    "yogaPoses": 20,
+    "images": 65,
+    "foods": 104
+  },
+  "notes": [
+    "yoga 为 curated 真实序列（含体式与时长）。",
+    "图片宁缺毋滥：见 exercise_images.json unmatched。",
+    "diet mealBuilder：宏量→常见主食/蛋白克数；含 ISSN/WHO/膳食指南公开引用。"
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "source": "curated",
+  "licenseNote": "体式名称多为公共领域通用名；序列为自编教学结构，非抄录某品牌课程。无受版权保护的配图。",
+  "guidelines": {
+    "audience": "全性别可用；女性默认更易被推荐为恢复选项（髋部打开、温和力量、经期友好变体提示）",
+    "scheduling": "不绑定日历日期；作为休息日/力量间隙的「今日可选恢复」",
+    "intensity": "beginner–intermediate；避免高强度热瑜伽/高阶倒立作为默认"
+  },
+  "poses": [
+    {
+      "id": "pose_mountain",
+      "name": "山式",
+      "nameSa": "Tadasana",
+      "durationSec": 30,
+      "breathCue": "鼻吸鼻呼，均匀 4–6 次",
+      "cues": ["双脚平行踩实", "膝微软", "头顶向上延伸"],
+      "focus": ["站立根基", "觉察"]
+    },
+    {
+      "id": "pose_cat_cow",
+      "name": "猫牛式",
+      "nameSa": "Marjaryasana–Bitilasana",
+      "durationSec": 60,
+      "breathCue": "吸气牛式、呼气猫式",
+      "cues": ["手肩膝髋对齐", "活动胸椎与骨盆", "幅度舒适"],
+      "focus": ["脊柱活动", "热身"]
+    },
+    {
+      "id": "pose_child",
+      "name": "婴儿式",
+      "nameSa": "Balasana",
+      "durationSec": 60,
+      "breathCue": "慢长呼气放松腰背",
+      "cues": ["臀坐脚跟方向", "额头点地或垫高", "肩远离耳"],
+      "focus": ["恢复", "腰背放松"]
+    },
+    {
+      "id": "pose_down_dog",
+      "name": "下犬式",
+      "nameSa": "Adho Mukha Svanasana",
+      "durationSec": 45,
+      "breathCue": "均匀呼吸 5–8 次",
+      "cues": ["髋上提", "膝可微屈", "肩外旋远离耳"],
+      "focus": ["后链拉伸", "肩带"]
+    },
+    {
+      "id": "pose_low_lunge",
+      "name": "低位弓步",
+      "nameSa": "Anjaneyasana（低位）",
+      "durationSec": 45,
+      "breathCue": "每侧停留 5 次呼吸",
+      "cues": ["后膝可垫软物", "髋下沉", "前膝不超脚尖过多"],
+      "focus": ["髋屈肌", "髋打开"]
+    },
+    {
+      "id": "pose_lizard",
+      "name": "蜥蜴式",
+      "nameSa": "Utthan Pristhasana",
+      "durationSec": 45,
+      "breathCue": "每侧 5–8 次呼吸",
+      "cues": ["双手内侧撑地或砖", "后膝可落地降难度", "骨盆放松"],
+      "focus": ["髋打开", "女性友好"]
+    },
+    {
+      "id": "pose_pigeon",
+      "name": "鸽子式（睡鸽变体可）",
+      "nameSa": "Eka Pada Rajakapotasana 准备式",
+      "durationSec": 60,
+      "breathCue": "每侧慢呼吸 8–10 次",
+      "cues": ["前小腿尽量平行垫面或舒适角度", "膝不适立即退出", "可改仰卧睡鸽"],
+      "focus": ["臀髋外旋", "女性友好", "恢复"]
+    },
+    {
+      "id": "pose_butterfly",
+      "name": "蝴蝶式",
+      "nameSa": "Baddha Konasana",
+      "durationSec": 60,
+      "breathCue": "放松腹股沟，慢呼气",
+      "cues": ["脚掌相对", "脊柱延长", "勿强压膝"],
+      "focus": ["内收肌", "髋打开", "经期友好"]
+    },
+    {
+      "id": "pose_supine_twist",
+      "name": "仰卧扭转",
+      "nameSa": "Supta Matsyendrasana",
+      "durationSec": 45,
+      "breathCue": "每侧 6–8 次呼吸",
+      "cues": ["双肩尽量贴地", "膝叠落一侧", "颈放松"],
+      "focus": ["脊柱旋转", "放松"]
+    },
+    {
+      "id": "pose_bridge_yoga",
+      "name": "桥式",
+      "nameSa": "Setu Bandhasana",
+      "durationSec": 45,
+      "breathCue": "吸气抬髋，顶峰平稳呼吸",
+      "cues": ["脚跟靠近臀", "膝朝脚尖", "下巴不耸"],
+      "focus": ["温和后弯", "臀链", "温和力量"]
+    },
+    {
+      "id": "pose_goddess",
+      "name": "女神式",
+      "nameSa": "Utkata Konasana",
+      "durationSec": 40,
+      "breathCue": "可配合手臂开合呼吸",
+      "cues": ["脚外八", "膝朝脚尖", "骨盆中立"],
+      "focus": ["下肢力量", "髋外展", "女性友好"]
+    },
+    {
+      "id": "pose_chair",
+      "name": "幻椅式",
+      "nameSa": "Utkatasana",
+      "durationSec": 30,
+      "breathCue": "均匀呼吸 5 次",
+      "cues": ["髋后坐", "膝不内扣", "胸腔提起"],
+      "focus": ["下肢力量", "温和力量"]
+    },
+    {
+      "id": "pose_warrior2",
+      "name": "战士二式",
+      "nameSa": "Virabhadrasana II",
+      "durationSec": 40,
+      "breathCue": "每侧 5 次呼吸",
+      "cues": ["前后脚脚掌踩实", "前膝对脚尖", "双臂平展"],
+      "focus": ["站姿力量", "髋稳定"]
+    },
+    {
+      "id": "pose_triangle",
+      "name": "三角式",
+      "nameSa": "Trikonasana",
+      "durationSec": 40,
+      "breathCue": "每侧 5 次呼吸",
+      "cues": ["侧伸而非塌腰", "手可撑砖/小腿", "颈中立"],
+      "focus": ["侧链", "腿后侧"]
+    },
+    {
+      "id": "pose_legs_up_wall",
+      "name": "腿靠墙",
+      "nameSa": "Viparita Karani",
+      "durationSec": 120,
+      "breathCue": "完全放松呼吸",
+      "cues": ["臀可靠墙", "膝可微屈", "闭眼休息"],
+      "focus": ["恢复", "经期友好", "放松"]
+    },
+    {
+      "id": "pose_corpse",
+      "name": "尸式",
+      "nameSa": "Savasana",
+      "durationSec": 120,
+      "breathCue": "自然呼吸，扫除紧张",
+      "cues": ["全身放松", "可盖薄毯", "结束前缓慢翻侧起身"],
+      "focus": ["放松", "收束"]
+    },
+    {
+      "id": "pose_thread_needle",
+      "name": "穿针式",
+      "nameSa": "Parsva Balasana",
+      "durationSec": 40,
+      "breathCue": "每侧 5 次呼吸",
+      "cues": ["一手穿到对侧", "肩放松下沉", "髋稳定"],
+      "focus": ["上背旋转", "肩胸"]
+    },
+    {
+      "id": "pose_sphinx",
+      "name": "斯芬克斯式",
+      "nameSa": "Salamba Bhujangasana",
+      "durationSec": 40,
+      "breathCue": "轻柔吸气延长脊柱",
+      "cues": ["前臂支撑", "骨盆沉重", "颈延长"],
+      "focus": ["温和后弯", "胸椎"]
+    },
+    {
+      "id": "pose_happy_baby",
+      "name": "快乐婴儿式",
+      "nameSa": "Ananda Balasana",
+      "durationSec": 45,
+      "breathCue": "放松髋与下背",
+      "cues": ["抓脚外侧或小腿", "骶骨贴地", "可轻晃"],
+      "focus": ["髋打开", "放松", "经期友好"]
+    },
+    {
+      "id": "pose_figure4",
+      "name": "仰卧睡鸽（4 字式）",
+      "nameSa": "Supine Figure-4",
+      "durationSec": 50,
+      "breathCue": "每侧 6–8 次呼吸",
+      "cues": ["踝在对侧膝上", "拉大腿靠近胸", "膝不适减小幅度"],
+      "focus": ["臀髋", "恢复", "女性友好"]
+    }
+  ],
+  "sequences": [
+    {
+      "id": "yoga_rest_gentle",
+      "title": "休息日温和恢复流",
+      "level": "beginner",
+      "durationMinutes": 18,
+      "tags": ["recovery", "rest_day", "women_friendly"],
+      "intent": "力量训练间隙或完全休息日的低强度恢复，强调呼吸与髋部放松。",
+      "poseIds": [
+        "pose_mountain",
+        "pose_cat_cow",
+        "pose_child",
+        "pose_thread_needle",
+        "pose_butterfly",
+        "pose_figure4",
+        "pose_supine_twist",
+        "pose_legs_up_wall",
+        "pose_corpse"
+      ]
+    },
+    {
+      "id": "yoga_hip_opener",
+      "title": "髋部打开（女性友好）",
+      "level": "beginner",
+      "durationMinutes": 22,
+      "tags": ["hips", "women_focused", "mobility"],
+      "intent": "针对久坐与下肢训练后的髋屈/外旋紧张；经期不适可跳过深度鸽子，改睡鸽与蝴蝶。",
+      "poseIds": [
+        "pose_cat_cow",
+        "pose_low_lunge",
+        "pose_lizard",
+        "pose_pigeon",
+        "pose_butterfly",
+        "pose_happy_baby",
+        "pose_figure4",
+        "pose_supine_twist",
+        "pose_corpse"
+      ]
+    },
+    {
+      "id": "yoga_gentle_strength",
+      "title": "温和站姿力量流",
+      "level": "beginner_intermediate",
+      "durationMinutes": 20,
+      "tags": ["gentle_strength", "standing", "women_friendly"],
+      "intent": "不用器械的下肢与核心轻度刺激，适合想动但不想练力量的日子。",
+      "poseIds": [
+        "pose_mountain",
+        "pose_chair",
+        "pose_goddess",
+        "pose_warrior2",
+        "pose_triangle",
+        "pose_bridge_yoga",
+        "pose_child",
+        "pose_corpse"
+      ]
+    },
+    {
+      "id": "yoga_mobility_spine",
+      "title": "脊柱与肩带活动流",
+      "level": "beginner",
+      "durationMinutes": 15,
+      "tags": ["mobility", "upper_body", "desk"],
+      "intent": "推拉训练日前后或久坐后的肩胸与胸椎活动。",
+      "poseIds": [
+        "pose_cat_cow",
+        "pose_thread_needle",
+        "pose_sphinx",
+        "pose_down_dog",
+        "pose_child",
+        "pose_supine_twist",
+        "pose_corpse"
+      ]
+    },
+    {
+      "id": "yoga_period_gentle",
+      "title": "经期/低能量温和流",
+      "level": "beginner",
+      "durationMinutes": 16,
+      "tags": ["period_friendly", "women_focused", "low_energy"],
+      "intent": "避免强倒立与深度腹压；以仰卧与支撑放松为主。不适时随时停止。",
+      "poseIds": [
+        "pose_butterfly",
+        "pose_happy_baby",
+        "pose_figure4",
+        "pose_supine_twist",
+        "pose_legs_up_wall",
+        "pose_corpse"
+      ]
+    }
+  ]
+}
