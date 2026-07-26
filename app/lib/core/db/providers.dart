@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../features/planning/data/plan_repository.dart';
 import '../../features/planning/domain/models.dart';
+import '../../features/weight/domain/weight_log.dart';
 import 'app_database.dart';
 import 'seed_loader.dart';
 
@@ -23,6 +24,12 @@ final appDatabaseProvider = FutureProvider<AppDatabase>(
       _bootstrapTimeout,
       onTimeout: () =>
           throw TimeoutException('初始化预置数据超时', _bootstrapTimeout),
+    );
+    // seed 就绪后一次性按名回填计划中的 exerciseId（导航不再按名查库）
+    await PlanRepository(db).ensurePlanExerciseIds().timeout(
+      _bootstrapTimeout,
+      onTimeout: () =>
+          throw TimeoutException('回填动作 id 超时', _bootstrapTimeout),
     );
     return db;
   },
@@ -52,4 +59,10 @@ final activePlanProvider = StreamProvider<ActivePlan?>((ref) {
 /// 队列下一待练（随 ActivePlan.cursorIndex 变化）。
 final nextSessionProvider = Provider<AsyncValue<PlannedSession?>>((ref) {
   return ref.watch(activePlanProvider).whenData((plan) => plan?.nextSession);
+});
+
+/// 体重日志（按 date 升序）。
+final weightLogsProvider = StreamProvider<List<WeightLog>>((ref) {
+  final repo = ref.watch(planRepositoryProvider);
+  return repo.watchWeightLogs();
 });

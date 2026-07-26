@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:drift/drift.dart';
 
 import '../../../core/db/app_database.dart' hide YogaSequence;
+import '../../weight/domain/weight_log.dart';
+import '../domain/exercise_id_attach.dart';
 import '../domain/goal_classifier.dart';
 import '../domain/meal_plan_builder.dart';
 import '../domain/models.dart';
@@ -75,10 +77,22 @@ class PlanRepository {
   /// 仅在场所/器械/分化/目标/基线变化，或用户明确点「重新生成计划」时使用。
   Future<ActivePlan> regeneratePlan(UserProfile profile) async {
     final composer = await _composer();
-    final plan = composer.compose(profile);
+    final plan = await _withExerciseIds(composer.compose(profile));
     await _persistPlan(plan);
     await saveProfile(profile, onboardingDone: true);
     return plan;
+  }
+
+  /// 一次性/seed 后回填：按动作名写入 exerciseId（不按名导航，只在此落盘）。
+  ///
+  /// seed 重灌后 id 可能变化，故每次 ensure 后按名对齐当前动作库。
+  Future<void> ensurePlanExerciseIds() async {
+    final plan = await getActivePlan();
+    if (plan == null) return;
+    final byName = await _exerciseIdsByName();
+    if (!planNeedsExerciseIdAttach(plan, byName)) return;
+    final updated = attachExerciseIdsToPlan(plan, byName);
+    await _persistPlanSessions(updated);
   }
 
   /// 只更新有氧/瑜伽策略（及饮食热量摊销），保留力量队列进度与负荷适应。
@@ -162,6 +176,15 @@ class PlanRepository {
             );
       }
     });
+  }
+
+  Future<Map<String, int>> _exerciseIdsByName() async {
+    final rows = await db.select(db.exercises).get();
+    return {for (final e in rows) e.name: e.id};
+  }
+
+  Future<ActivePlan> _withExerciseIds(ActivePlan plan) async {
+    return attachExerciseIdsToPlan(plan, await _exerciseIdsByName());
   }
 
   Future<PlanComposer> _composer() async {
@@ -446,13 +469,25 @@ class PlanRepository {
     final profile = await getProfile();
     final plan = await getActivePlan();
     final logs = await db.select(db.workoutLogs).get();
+    final weightLogs = await (db.select(db.weightLogs)
+          ..orderBy([(t) => OrderingTerm.asc(t.date)]))
+        .get();
     return {
-      'version': 2,
+      'version': 3,
       'exportedAt': DateTime.now().toIso8601String(),
       'profile': profile?.toJson(),
       'activePlan': plan?.toJson(),
       'logs': logs
           .map((e) => jsonDecode(e.json) as Map<String, dynamic>)
+          .toList(),
+      'weightLogs': weightLogs
+          .map(
+            (e) => WeightLog(
+              date: e.date,
+              weightKg: e.weightKg,
+              loggedAt: e.loggedAt,
+            ).toJson(),
+          )
           .toList(),
     };
   }
@@ -461,6 +496,61 @@ class PlanRepository {
     final profile = await getProfile();
     if (profile == null) return;
     await saveProfile(profile.copyWith(weightKg: weightKg));
+  }
+
+  /// 按日 upsert 体重；若该日 ≥ 已有最新日志日（或为首条），同步资料体重。
+  Future<void> upsertWeightLog(DateTime date, double weightKg) async {
+    final dateKey = _fmt(date);
+    final now = DateTime.now();
+    await db.into(db.weightLogs).insertOnConflictUpdate(
+          WeightLogsCompanion.insert(
+            date: dateKey,
+            weightKg: weightKg,
+            loggedAt: now,
+          ),
+        );
+
+    final latest = await (db.select(db.weightLogs)
+          ..orderBy([(t) => OrderingTerm.desc(t.date)])
+          ..limit(1))
+        .getSingleOrNull();
+    if (latest == null || dateKey.compareTo(latest.date) >= 0) {
+      await updateWeight(weightKg);
+    }
+  }
+
+  Stream<List<WeightLog>> watchWeightLogs() {
+    return (db.select(db.weightLogs)
+          ..orderBy([(t) => OrderingTerm.asc(t.date)]))
+        .watch()
+        .map(
+          (rows) => [
+            for (final r in rows)
+              WeightLog(
+                date: r.date,
+                weightKg: r.weightKg,
+                loggedAt: r.loggedAt,
+              ),
+          ],
+        );
+  }
+
+  Future<List<WeightLog>> weightLogsInRange(DateTime from, DateTime to) async {
+    final fromKey = _fmt(from);
+    final toKey = _fmt(to);
+    final rows = await (db.select(db.weightLogs)
+          ..where((t) => t.date.isBiggerOrEqualValue(fromKey))
+          ..where((t) => t.date.isSmallerOrEqualValue(toKey))
+          ..orderBy([(t) => OrderingTerm.asc(t.date)]))
+        .get();
+    return [
+      for (final r in rows)
+        WeightLog(
+          date: r.date,
+          weightKg: r.weightKg,
+          loggedAt: r.loggedAt,
+        ),
+    ];
   }
 
   static String _fmt(DateTime d) =>

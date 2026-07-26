@@ -272,7 +272,7 @@ class TodayPage extends ConsumerWidget {
                             IconButton(
                               tooltip: '查看动作',
                               icon: const Icon(Icons.open_in_new, size: 20),
-                              onPressed: () => _openExercise(context, ref, e.name),
+                              onPressed: () => _openExercise(context, e),
                             ),
                           ],
                         ),
@@ -311,30 +311,16 @@ class TodayPage extends ConsumerWidget {
     return '${e.region} · ${e.targetSets} 组 × ${e.repsMin}-${e.repsMax} 次$weight';
   }
 
-  Future<void> _openExercise(
-    BuildContext context,
-    WidgetRef ref,
-    String name,
-  ) async {
-    try {
-      final db = await ref.read(appDatabaseProvider.future);
-      final row = await (db.select(db.exercises)
-            ..where((t) => t.name.equals(name))
-            ..limit(1))
-          .getSingleOrNull();
-      if (!context.mounted) return;
-      if (row != null) {
-        context.push('/exercises/${row.id}');
-      } else {
-        context.push('/exercises');
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('动作库中暂无「$name」，已打开列表')),
-        );
-      }
-    } catch (e) {
-      if (!context.mounted) return;
-      context.push('/exercises');
+  void _openExercise(BuildContext context, PlannedExercise e) {
+    final id = e.exerciseId;
+    if (id != null) {
+      context.push('/exercises/$id');
+      return;
     }
+    context.push('/exercises');
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('动作库中暂无「${e.name}」，已打开列表')),
+    );
   }
 
   Future<void> _quickComplete(

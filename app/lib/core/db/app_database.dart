@@ -136,6 +136,17 @@ class DietRulesStore extends Table {
   Set<Column> get primaryKey => {id};
 }
 
+/// 每日体重日志（一天一条，按 date 主键 upsert）
+@DataClassName('WeightLogRow')
+class WeightLogs extends Table {
+  TextColumn get date => text()(); // yyyy-MM-dd
+  RealColumn get weightKg => real()();
+  DateTimeColumn get loggedAt => dateTime()();
+
+  @override
+  Set<Column> get primaryKey => {date};
+}
+
 /// FTS5 虚表：动作搜索
 @DriftAccessor(tables: [Exercises])
 class ExerciseDao extends DatabaseAccessor<AppDatabase> with _$ExerciseDaoMixin {
@@ -215,6 +226,7 @@ class ExerciseDao extends DatabaseAccessor<AppDatabase> with _$ExerciseDaoMixin 
     SplitTemplates,
     DietRulesStore,
     YogaSequences,
+    WeightLogs,
   ],
   daos: [ExerciseDao],
 )
@@ -222,7 +234,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase(super.e);
 
   @override
-  int get schemaVersion => 4;
+  int get schemaVersion => 5;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -247,6 +259,9 @@ class AppDatabase extends _$AppDatabase {
           if (from < 4) {
             // FTS 列名必须与 content 表一致；重建索引以免升级后搜索为空
             await rebuildExerciseFts();
+          }
+          if (from < 5) {
+            await m.createTable(weightLogs);
           }
         },
       );

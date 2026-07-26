@@ -11,6 +11,7 @@ import '../features/profile/presentation/faq_page.dart';
 import '../features/profile/presentation/profile_page.dart';
 import '../features/today/presentation/edit_complete_page.dart';
 import '../features/today/presentation/today_page.dart';
+import '../features/weight/presentation/weight_page.dart';
 import 'shell_scaffold.dart';
 
 final _rootKey = GlobalKey<NavigatorState>();
@@ -101,6 +102,11 @@ final routerProvider = Provider<GoRouter>((ref) {
                     path: 'faq',
                     parentNavigatorKey: _rootKey,
                     builder: (context, state) => const FaqPage(),
+                  ),
+                  GoRoute(
+                    path: 'weight',
+                    parentNavigatorKey: _rootKey,
+                    builder: (context, state) => const WeightPage(),
                   ),
                 ],
               ),

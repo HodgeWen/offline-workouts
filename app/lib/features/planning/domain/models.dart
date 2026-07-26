@@ -242,6 +242,7 @@ class PlannedExercise {
     this.joints = const [],
     this.targetWeightKg,
     this.note = '',
+    this.exerciseId,
   });
 
   final String name;
@@ -254,6 +255,8 @@ class PlannedExercise {
   final double? targetWeightKg;
   /// 个性化说明（为何是这组次数）。
   final String note;
+  /// 动作库主键；生成/回填时写入，导航详情用 id 而非按名匹配。
+  final int? exerciseId;
 
   PlannedExercise copyWith({
     String? name,
@@ -265,6 +268,8 @@ class PlannedExercise {
     double? targetWeightKg,
     bool clearWeight = false,
     String? note,
+    int? exerciseId,
+    bool clearExerciseId = false,
   }) {
     return PlannedExercise(
       name: name ?? this.name,
@@ -276,6 +281,8 @@ class PlannedExercise {
       targetWeightKg:
           clearWeight ? null : (targetWeightKg ?? this.targetWeightKg),
       note: note ?? this.note,
+      exerciseId:
+          clearExerciseId ? null : (exerciseId ?? this.exerciseId),
     );
   }
 
@@ -288,6 +295,7 @@ class PlannedExercise {
         'joints': joints,
         'targetWeightKg': targetWeightKg,
         'note': note,
+        if (exerciseId != null) 'exerciseId': exerciseId,
       };
 
   factory PlannedExercise.fromJson(Map<String, dynamic> json) =>
@@ -300,6 +308,7 @@ class PlannedExercise {
         joints: (json['joints'] as List? ?? []).cast<String>(),
         targetWeightKg: (json['targetWeightKg'] as num?)?.toDouble(),
         note: json['note'] as String? ?? '',
+        exerciseId: (json['exerciseId'] as num?)?.toInt(),
       );
 }
 
@@ -536,6 +545,7 @@ class LoggedExercise {
     this.prescribedRepsMin,
     this.prescribedRepsMax,
     this.prescribedWeightKg,
+    this.exerciseId,
   });
 
   final String name;
@@ -547,6 +557,8 @@ class LoggedExercise {
   final int? prescribedRepsMin;
   final int? prescribedRepsMax;
   final double? prescribedWeightKg;
+  /// 动作库主键快照（与处方一致，便于回顾时跳转详情）。
+  final int? exerciseId;
 
   /// 实际总容量（有配重 Σkg×reps；自重 Σreps）。
   double get loggedVolume =>
@@ -570,6 +582,7 @@ class LoggedExercise {
         if (prescribedRepsMax != null) 'prescribedRepsMax': prescribedRepsMax,
         if (prescribedWeightKg != null)
           'prescribedWeightKg': prescribedWeightKg,
+        if (exerciseId != null) 'exerciseId': exerciseId,
       };
 
   factory LoggedExercise.fromJson(Map<String, dynamic> json) => LoggedExercise(
@@ -582,6 +595,7 @@ class LoggedExercise {
         prescribedRepsMin: (json['prescribedRepsMin'] as num?)?.toInt(),
         prescribedRepsMax: (json['prescribedRepsMax'] as num?)?.toInt(),
         prescribedWeightKg: (json['prescribedWeightKg'] as num?)?.toDouble(),
+        exerciseId: (json['exerciseId'] as num?)?.toInt(),
       );
 
   /// 从处方动作生成可编辑/快速完成用的日志草稿（含处方快照）。
@@ -604,6 +618,7 @@ class LoggedExercise {
       prescribedRepsMin: e.repsMin,
       prescribedRepsMax: e.repsMax,
       prescribedWeightKg: e.targetWeightKg,
+      exerciseId: e.exerciseId,
     );
   }
 }

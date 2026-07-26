@@ -1,5 +1,8 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
 import 'app/router.dart';
@@ -8,6 +11,17 @@ import 'core/theme/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // 仅用 assets/google_fonts 本地字体，禁止运行时 HTTP 拉取（避免 Web 首屏抖动）
+  GoogleFonts.config.allowRuntimeFetching = false;
+  LicenseRegistry.addLicense(() async* {
+    for (final path in const [
+      'assets/google_fonts/OFL-Outfit.txt',
+      'assets/google_fonts/OFL-Syne.txt',
+    ]) {
+      final license = await rootBundle.loadString(path);
+      yield LicenseEntryWithLineBreaks(['google_fonts'], license);
+    }
+  });
   await initializeDateFormatting('zh_CN');
   runApp(const ProviderScope(child: WorkoutApp()));
 }
@@ -20,7 +34,7 @@ class WorkoutApp extends ConsumerWidget {
     final db = ref.watch(appDatabaseProvider);
 
     return db.when(
-      // bootstrap 阶段不用 GoogleFonts，避免 web 字体异步加载触发 text_painter 断言
+      // bootstrap 与正式主题共用本地字体，避免异步换字体触发 text_painter 断言
       loading: () => _BootstrapApp(
         child: const Scaffold(
           body: Center(
@@ -91,10 +105,7 @@ class _BootstrapApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: AppTheme.primary),
-      ),
+      theme: AppTheme.light(),
       debugShowCheckedModeBanner: false,
       // 忽略浏览器深链，始终只展示 bootstrap 页
       onGenerateInitialRoutes: (_) => [

@@ -53,7 +53,18 @@ class _ExerciseDetailPageState extends ConsumerState<ExerciseDetailPage> {
               if (d.imagePath != null && d.imagePath!.isNotEmpty) ...[
                 AspectRatio(
                   aspectRatio: 1.2,
-                  child: ExerciseImage(imagePath: d.imagePath!),
+                  child: LayoutBuilder(
+                    builder: (context, constraints) {
+                      // 与列表一致限制解码宽度，避免大图全尺寸解码卡顿
+                      final logicalW = constraints.maxWidth.isFinite
+                          ? constraints.maxWidth
+                          : MediaQuery.sizeOf(context).width;
+                      return ExerciseImage(
+                        imagePath: d.imagePath!,
+                        memCacheWidth: logicalW.ceil().clamp(1, 2048),
+                      );
+                    },
+                  ),
                 ),
                 if (d.imageAttribution.isNotEmpty)
                   Padding(

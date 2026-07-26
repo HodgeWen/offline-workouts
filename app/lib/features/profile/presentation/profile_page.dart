@@ -22,14 +22,6 @@ class ProfilePage extends ConsumerStatefulWidget {
 }
 
 class _ProfilePageState extends ConsumerState<ProfilePage> {
-  final _weightCtrl = TextEditingController();
-
-  @override
-  void dispose() {
-    _weightCtrl.dispose();
-    super.dispose();
-  }
-
   @override
   Widget build(BuildContext context) {
     final profileAsync = ref.watch(userProfileProvider);
@@ -48,9 +40,6 @@ class _ProfilePageState extends ConsumerState<ProfilePage> {
             data: (profile) {
               if (profile == null) {
                 return Text('尚未填写资料', style: text.bodyLarge);
-              }
-              if (_weightCtrl.text.isEmpty) {
-                _weightCtrl.text = profile.weightKg.toString();
               }
               // Material 包裹：避免 ListTile/SwitchListTile 在 DecoratedBox 下 ink 断言
               return Material(
@@ -156,37 +145,12 @@ class _ProfilePageState extends ConsumerState<ProfilePage> {
             },
           ),
           const SizedBox(height: 22),
-          Text('更新体重', style: text.titleLarge),
-          const SizedBox(height: 8),
-          Row(
-            children: [
-              Expanded(
-                child: TextField(
-                  controller: _weightCtrl,
-                  keyboardType: TextInputType.number,
-                  decoration: const InputDecoration(
-                    labelText: '体重 kg',
-                    isDense: true,
-                  ),
-                ),
-              ),
-              const SizedBox(width: 8),
-              FilledButton(
-                onPressed: () async {
-                  final w = double.tryParse(_weightCtrl.text);
-                  if (w == null) return;
-                  await ref.read(planRepositoryProvider).updateWeight(w);
-                  if (context.mounted) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('体重已更新（重生成计划可同步饮食）')),
-                    );
-                  }
-                },
-                child: const Text('保存'),
-              ),
-            ],
+          _navTile(
+            icon: Icons.monitor_weight_outlined,
+            title: '体重记录',
+            subtitle: '按日录入，查看日/周/月趋势',
+            onTap: () => context.push('/profile/weight'),
           ),
-          const SizedBox(height: 24),
           _navTile(
             icon: Icons.fitness_center,
             title: '基线能力与器械',
