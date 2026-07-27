@@ -87,7 +87,8 @@ class WorkoutApp extends ConsumerWidget {
         return MaterialApp.router(
           title: '离线健身',
           theme: AppTheme.light(),
-          darkTheme: AppTheme.dark(),
+          // 应用视觉以 AtmosphereBackground 浅色氛围为准，避免系统深色模式整屏变黑
+          themeMode: ThemeMode.light,
           routerConfig: router,
           debugShowCheckedModeBanner: false,
         );

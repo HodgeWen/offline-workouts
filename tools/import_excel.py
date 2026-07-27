@@ -693,7 +693,9 @@ def enrich_exercises_with_anatomy(exercises: list, anatomy: dict) -> list:
                         if m not in muscles:
                             muscles.append(m)
                     if matched.get("description"):
-                        note = f"{matched['joint']}{matched['action']}：{matched['description']}"
+                        # description 自身常含「：」，统一用中点避免「外展：大臂：内→外」嵌套
+                        desc = str(matched["description"]).replace("：", " · ").replace(":", " · ")
+                        note = f"{matched['joint']}{matched['action']} · {desc}"
                         if note not in notes:
                             notes.append(note)
         ex["muscles"] = muscles

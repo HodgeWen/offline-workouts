@@ -146,12 +146,6 @@ class _ProfilePageState extends ConsumerState<ProfilePage> {
           ),
           const SizedBox(height: 22),
           _navTile(
-            icon: Icons.monitor_weight_outlined,
-            title: '体重记录',
-            subtitle: '按日录入，查看日/周/月趋势',
-            onTap: () => context.push('/profile/weight'),
-          ),
-          _navTile(
             icon: Icons.fitness_center,
             title: '基线能力与器械',
             subtitle: '更新最大次数 / 居家器械，并可应用到后续训练',

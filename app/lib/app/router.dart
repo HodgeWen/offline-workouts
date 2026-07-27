@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../core/db/providers.dart';
+import '../core/theme/app_theme.dart';
 import '../features/calendar/presentation/calendar_page.dart';
 import '../features/exercises/presentation/exercise_detail_page.dart';
 import '../features/exercises/presentation/exercises_page.dart';
@@ -31,6 +32,8 @@ final routerProvider = Provider<GoRouter>((ref) {
       if (done == null) return null;
       if (!done && !goingOnboarding) return '/onboarding';
       if (done && goingOnboarding) return '/today';
+      // 旧路径兼容：体重已迁至「分析」Tab
+      if (state.matchedLocation == '/profile/weight') return '/analysis';
       return null;
     },
     routes: [
@@ -80,15 +83,26 @@ final routerProvider = Provider<GoRouter>((ref) {
                     builder: (context, state) {
                       final id = int.tryParse(state.pathParameters['id'] ?? '');
                       if (id == null) {
-                        return Scaffold(
-                          appBar: AppBar(title: const Text('动作详情')),
-                          body: const Center(child: Text('无效的动作链接')),
+                        return AtmosphereBackground(
+                          child: Scaffold(
+                            backgroundColor: Colors.transparent,
+                            appBar: AppBar(title: const Text('动作详情')),
+                            body: const Center(child: Text('无效的动作链接')),
+                          ),
                         );
                       }
                       return ExerciseDetailPage(exerciseId: id);
                     },
                   ),
                 ],
+              ),
+            ],
+          ),
+          StatefulShellBranch(
+            routes: [
+              GoRoute(
+                path: '/analysis',
+                builder: (context, state) => const WeightPage(),
               ),
             ],
           ),
@@ -102,11 +116,6 @@ final routerProvider = Provider<GoRouter>((ref) {
                     path: 'faq',
                     parentNavigatorKey: _rootKey,
                     builder: (context, state) => const FaqPage(),
-                  ),
-                  GoRoute(
-                    path: 'weight',
-                    parentNavigatorKey: _rootKey,
-                    builder: (context, state) => const WeightPage(),
                   ),
                 ],
               ),

@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 import '../../../core/db/app_database.dart';
 import '../../../core/db/providers.dart';
 import '../../../core/theme/app_theme.dart';
+import '../domain/anatomy_format.dart';
 import 'exercise_image.dart';
 
 class ExercisesPage extends ConsumerStatefulWidget {
@@ -174,7 +175,9 @@ class _ExercisesPageState extends ConsumerState<ExercisesPage> {
           subtitle: Text(
             [
               if (e.region.isNotEmpty) e.region,
-              if (e.anatomyNote != null) e.anatomyNote!,
+              if (e.anatomyNote != null)
+                // 列表单行展示：嵌套冒号改中点后压成空格连接
+                formatAnatomyCopy(e.anatomyNote!).replaceAll('\n', ' · '),
             ].join(' · '),
             maxLines: 2,
             overflow: TextOverflow.ellipsis,

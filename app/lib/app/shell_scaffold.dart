@@ -34,6 +34,11 @@ class ShellScaffold extends StatelessWidget {
               label: '动作库',
             ),
             NavigationDestination(
+              icon: Icon(Icons.insights_outlined),
+              selectedIcon: Icon(Icons.insights),
+              label: '分析',
+            ),
+            NavigationDestination(
               icon: Icon(Icons.person_outline),
               selectedIcon: Icon(Icons.person),
               label: '我的',

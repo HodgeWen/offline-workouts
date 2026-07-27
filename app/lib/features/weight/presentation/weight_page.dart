@@ -50,7 +50,7 @@ class _WeightPageState extends ConsumerState<WeightPage> {
 
     return Scaffold(
       backgroundColor: Colors.transparent,
-      appBar: AppBar(title: const Text('体重记录')),
+      appBar: AppBar(title: const Text('分析 · 体重')),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
         children: [
@@ -58,16 +58,23 @@ class _WeightPageState extends ConsumerState<WeightPage> {
           const SizedBox(height: 12),
           Row(
             children: [
-              Expanded(
+              // 日期按钮需足够宽度，避免 yyyy-MM-dd 被挤成竖排换行
+              Flexible(
+                flex: 5,
                 child: OutlinedButton.icon(
                   onPressed: () => _pickDate(context),
                   icon: const Icon(Icons.calendar_today_outlined, size: 18),
-                  label: Text(_fmt(_selectedDate)),
+                  label: Text(
+                    _fmt(_selectedDate),
+                    maxLines: 1,
+                    softWrap: false,
+                    overflow: TextOverflow.ellipsis,
+                  ),
                 ),
               ),
               const SizedBox(width: 10),
               Expanded(
-                flex: 2,
+                flex: 6,
                 child: TextField(
                   controller: _weightCtrl,
                   keyboardType: const TextInputType.numberWithOptions(
@@ -283,6 +290,7 @@ class _WeightChart extends StatelessWidget {
             bottomTitles: AxisTitles(
               sideTitles: SideTitles(
                 showTitles: true,
+                reservedSize: 28,
                 interval: _bottomInterval(series.length),
                 getTitlesWidget: (v, meta) {
                   final i = v.round();
@@ -295,10 +303,14 @@ class _WeightChart extends StatelessWidget {
                       i % _bottomInterval(series.length).round() != 0) {
                     return const SizedBox.shrink();
                   }
-                  return Padding(
-                    padding: const EdgeInsets.only(top: 6),
+                  return SideTitleWidget(
+                    meta: meta,
+                    space: 6,
                     child: Text(
                       series[i].label,
+                      maxLines: 1,
+                      softWrap: false,
+                      overflow: TextOverflow.ellipsis,
                       style: Theme.of(context).textTheme.bodySmall,
                     ),
                   );
